@@ -5,13 +5,15 @@ public class PersonTest {
 
 	@Test
 	public void test() {
-		Person kazama = new Person();
+		Person shinichi = new Person();
+		Person aiko = new Person();
 		
-		kazama.setName("Shinichi.Kazama");
-		kazama.setAge(38);
+		shinichi.setName("Shinichi.Kazama");
+		shinichi.setAge(38);
+		aiko.setInfo("Aiko.Kazama", 32);
 		
-		System.out.println(kazama.getName());
-		System.out.println(kazama.getAge() + " years old");
+		System.out.println(shinichi.getName());
+		System.out.println(shinichi.getAge() + " years old");
 	}
 
 }

@@ -22,4 +22,10 @@ public class Person {
 		return this.age;
 	}
 
+	public void setInfo(String string, int i) {
+		this.name = string;
+		this.age = i;
+		
+	}
+
 }
