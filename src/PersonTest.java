@@ -14,6 +14,8 @@ public class PersonTest {
 		
 		System.out.println(shinichi.getName());
 		System.out.println(shinichi.getAge() + " years old");
+		System.out.println(aiko.getName());
+		System.out.println(aiko.getAge() + " years old");
 	}
 
 }
