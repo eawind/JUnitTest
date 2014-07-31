@@ -13,8 +13,7 @@ public class PersonTest {
 		aiko.setInfo("Aiko.Kazama", 32);
 		
 		System.out.println(shinichi.getName() + ": " + shinichi.getAge() + " years old");
-		System.out.println(aiko.getName());
-		System.out.println(aiko.getAge() + " years old");
+		System.out.println(aiko.getName() + ": " + aiko.getAge() + " years old");
 	}
 
 }
