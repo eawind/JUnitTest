@@ -12,8 +12,7 @@ public class PersonTest {
 		shinichi.setAge(38);
 		aiko.setInfo("Aiko.Kazama", 32);
 		
-		System.out.println(shinichi.getName());
-		System.out.println(shinichi.getAge() + " years old");
+		System.out.println(shinichi.getName() + ": " + shinichi.getAge() + " years old");
 		System.out.println(aiko.getName());
 		System.out.println(aiko.getAge() + " years old");
 	}
