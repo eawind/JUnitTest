@@ -13,10 +13,11 @@ public class PersonTest {
 		
 		shinichi.setName("Shinichi.Kazama");
 		shinichi.setAge(38);
-		aiko.setInfo("Aiko.Kazama", 32);
+		shinichi.setSex(Person.MAN);
+		aiko.setInfo("Aiko.Kazama", 32, Person.Woman);
 		
-		System.out.println(shinichi.getName() + ": " + shinichi.getAge() + " years old");
-		System.out.println(aiko.getName() + ": " + aiko.getAge() + " years old");
+		System.out.println(shinichi.getName() + ": " + shinichi.getAge() + " years old: sex = " + shinichi.getSex());
+		System.out.println(aiko.getName() + ": " + aiko.getAge() + " years old: sex = " + aiko.getSex());
 	}
 
 }
