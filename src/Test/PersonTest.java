@@ -1,4 +1,7 @@
+package Test;
 import org.junit.Test;
+
+import Person.Person;
 
 
 public class PersonTest {
